@@ -6,7 +6,7 @@ module.exports = {
     extract: false, // 不提取 CSS
   },
   configureWebpack: () => ({
-    entry: './src/server-entry.js', // 服务器入口文件
+    entry: './src/server/server.js', // 服务器入口文件
     devtool: 'source-map',
     target: 'node', // 构建目标为nodejs环境
     output: {
